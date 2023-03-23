@@ -1,0 +1,18 @@
+export const documentProps = {
+  title: 'Coming Soon',
+  description:
+    'A scaffold for a coming soon page with diy-pwa and vite-plugin-ssr',
+};
+import Header from '../components/Header.mdx';
+import Footer from '../components/Footer.mdx';
+import Main from '../components/Main.jsx';
+import Countdown from '../components/Countdown.jsx';
+
+<Header />
+<Main>
+  <h1 className="w3-jumbo w3-animate-top w3-center">{documentProps.title}</h1>
+  <hr className="w3-border-grey" />
+  <Countdown />
+  This website is about creating excitement and anticipation for a highly anticipated concert. Through a prominent countdown timer, the website builds hype and suspense as the seconds, minutes, and hours tick closer to the event. The website may also provide additional information about the concert, such as the performers, venue details, and opening acts, which can help fans prepare for the big night. By providing a central hub for information and countdowns, the website can help build excitement and bring music fans together in anticipation of a memorable concert experience.
+</Main>
+<Footer />
